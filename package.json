@@ -1,5 +1,5 @@
 {
-  "name": "outlayer",
+  "name": "@certishopping-assets/outlayer",
   "version": "2.1.1",
   "description": "the brains and guts of a layout library",
   "main": "outlayer.js",
@@ -15,15 +15,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/metafizzy/outlayer.git"
+    "url": "git+https://github.com/Certishopping/outlayer.git"
   },
   "bugs": {
-    "url": "https://github.com/metafizzy/outlayer/issues"
+    "url": "https://github.com/Certishopping/outlayer/issues"
   },
-  "homepage": "https://github.com/metafizzy/outlayer",
+  "homepage": "https://github.com/Certishopping/outlayer",
   "directories": {
     "doc": "docs",
-    "example": "examples",
     "test": "test"
   },
   "scripts": {
