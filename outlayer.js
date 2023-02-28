@@ -484,7 +484,10 @@ proto.dispatchEvent = function( type, event, args ) {
       this.$element.trigger( $event, args );
     } else {
       // just trigger with type if no event available
-      this.$element.trigger( type, args );
+      try {
+        this.$element.trigger( type, args );
+      } catch (error) {}
+     
     }
   }
 };
